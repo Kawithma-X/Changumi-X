@@ -273,7 +273,7 @@ setInterval(async () => {
         console.log(`${chalk.green.bold('Amazone')}${chalk.blue.bold('Alexa')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
-${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
+${chalk.blue.italic('⚔️Connecting to WhatsApp...')}`);
     });
     
 
@@ -309,7 +309,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('🛡️Amazone Alexa working!')
+            chalk.green.bold('👼Queen Alexa working!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
@@ -338,7 +338,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                     );
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```🛡️යතාවත්කාලීන කිරීමට``` *.update now* ```භාවිතා කරන්න.```\n\n' + TEENU + '```', MessageType.text
+                        '```🛡️update to``` *.update now* ```key use.```\n\n' + TEENU + '```', MessageType.text
                     ); 
                 }
             }
@@ -375,7 +375,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🧚‍♂QUEEN AMAZONE As private! 👩‍🦰*\n\n_මෙය ඔබගේ LOG අංකයයි..මෙහි විධාන භාවිතයෙන් වළකින්න._\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතා බහක විධාන භාවිතා කිරීමට.. :)_\n\n*ඔබේ Bot Private ආකාරයට ක්‍රියා කරයි..එය වෙනස් කිරීමට* _.setvar WORK_TYPE:public_ *විධානය භාවිතා කරන්න.*\n\n*Bot ක්‍රියාත්මක වන්නෙ කෙසේද හා විධාන ලැයිස්තු ලබා ගැනීමට⚜ .basichelp විධානය භාවිතා කරන්න*\n\nSupport Group : _https://chat.whatsapp.com/EzQHXDVCU088IaunEuTJ7B _\n\n _https://t.me/Amazone_Neotrox_Support_\n*🧚‍♂QUEEN AMAZONE භාවිතා කිරීම සම්බන්ධයෙන් ස්තූතියි 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*🧚‍♂QUEEN Alexa As private! 👩‍🦰*\n\n_මෙය ඔබගේ LOG අංකයයි..මෙහි විධාන භාවිතයෙන් වළකින්න._\n_ෙමහි විදාන සම්පූර්ණයෙන් වැඩ නොකරයි._\n_එම නිසා වෙනත් number එකක හෝ සමූහයක විදාන භාවිතා කරන්න(මෙහි විදාන හාවිතයෙන් auto error ඇතිවිය හැක).. :)_\n\n*ඔබේ Bot Private ආකාරයට ක්‍රියා කරයි..එය වෙනස් කිරීමට* _.setvar WORK_TYPE:public_ *විධානය භාවිතා කරන්න.*\n\n*Bot ක්‍රියාත්මක වන්නෙ කෙසේද හා විධාන ලැයිස්තු ලබා ගැනීමට⚜ .basichelp විධානය භාවිතා කරන්න*\n\nSupport Group : _https://chat.whatsapp.com/EzQHXDVCU088IaunEuTJ7B _\n\n _https://t.me/Amazone_Neotrox_Support_\n*🧚‍♂QUEEN AMAZONE භාවිතා කිරීම සම්බන්ධයෙන් ස්තූතියි 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);

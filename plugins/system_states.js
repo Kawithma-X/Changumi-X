@@ -29,7 +29,7 @@ if (Config.ALIVEMSG == 'default') MSG = '```\n\n*👩‍🦰Queen Alexa*\n*💫�
 else MSG = Config.ALIVEMSG
 
 
-Amazone.addCommand({pattern: 'alive', fromMe: Work_Mode, desc: Lang.ALIVE_DESC,  deleteCommand: false}, (async (message, match) => {
+Amazone.addCommand({pattern: 'aliv', fromMe: Work_Mode, desc: Lang.ALIVE_DESC,  deleteCommand: false}, (async (message, match) => {
     await message.client.sendMessage 
     var logo = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
     var PIC = Buffer.from(logo.data)

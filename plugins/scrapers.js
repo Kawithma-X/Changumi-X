@@ -15,14 +15,14 @@ const Config = require('../config');
 if (Config.WORKTYPE == 'private') {
 Amazon.addCommand({pattern: 'alive', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
-	await message.client.sendMessage(message.jid, fs.readFileSync('./Folder/VoiceClip/hack kara.mp3'), MessageType.audio, {mimetype: 'audio/mp4', ptt:true}, {quoted: message.data})
+	await message.client.sendMessage(message.jid, fs.readFileSync('./Folder/VoiceClip/bot name.mp3'), MessageType.audio, {mimetype: 'audio/mp4', ptt:true}, {quoted: message.data})
 }));
 }
 
 else if (Config.WORKTYPE == 'public') {
 Amazon.addCommand({pattern: 'alive', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 	
-    await message.client.sendMessage(message.jid, fs.readFileSync('./Folder/VoiceClip/hack kara.mp3'), MessageType.audio, {mimetype: 'audio/mp4', ptt:true}, {quoted: message.data})
+    await message.client.sendMessage(message.jid, fs.readFileSync('./Folder/VoiceClip/bot name.mp3'), MessageType.audio, {mimetype: 'audio/mp4', ptt:true}, {quoted: message.data})
 }));
 
 }

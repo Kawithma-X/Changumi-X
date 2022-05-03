@@ -10,7 +10,7 @@ const Config = require('../config');
 const chalk = require('chalk');
 const axios = require('axios');
 const fs = require('fs');
-let Work_Mode = Build.WORKTYPE == 'public' ? false : true
+let Work_Mode = Config.WORKTYPE == 'public' ? false : true
 
 
 const Language = require('../language');

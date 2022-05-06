@@ -44,8 +44,8 @@ Amazone.addCommand({pattern: 'aliv', fromMe: Work_Mode, desc: Lang.ALIVE_DESC,  
     }
         
     const buttons = [
-        {buttonId: BUTTHANDLE + '.sysd', buttonText: {displayText: VER }, type: 1},
-        {buttonId: BUTTHANDLE + '.system', buttonText: {displayText: SYSDTXT }, type: 1}
+        {buttonId: BUTTHANDLE + 'sysd', buttonText: {displayText: VER }, type: 1},
+        {buttonId: BUTTHANDLE + 'system', buttonText: {displayText: SYSDTXT }, type: 1}
     ]
     const buttonMessage = {
         contentText: MSG,

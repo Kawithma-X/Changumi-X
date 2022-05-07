@@ -20,11 +20,11 @@ const Lang = Language.getString('updater');
 //උස්සන උන්ගෙ රෙපෝ කෙලවිලාම පලයම්
 var logoimage = new Array ();
 
-logoimage[0] = "https://telegra.ph/file/a51a91c22de055d730c6e.jpg";
-logoimage[1] = "https://telegra.ph/file/34ef0c8009b176cd5772d.jpg";
-logoimage[2] = "https://telegra.ph/file/75433f8d2a4523e14a966.jpg";
-logoimage[3] = "https://telegra.ph/file/b61382ac648c3957a62af.jpg";
-logoimage[4] = "https://telegra.ph/file/a51a91c22de055d730c6e.jpg";
+logoimage[0] = "https://telegra.ph/file/f197db9fc5dd89b9cf2d7.jpg";
+logoimage[1] = "https://telegra.ph/file/f197db9fc5dd89b9cf2d7.jpg";
+logoimage[2] = "https://telegra.ph/file/f197db9fc5dd89b9cf2d7.jpg";
+logoimage[3] = "https://telegra.ph/file/f197db9fc5dd89b9cf2d7.jpg";
+logoimage[4] = "https://telegra.ph/file/f197db9fc5dd89b9cf2d7.jpg";
 
   var i = Math.floor(5*Math.random())
 

@@ -44,12 +44,12 @@ Amazone.addCommand({pattern: 'aliv', fromMe: Work_Mode, desc: Lang.ALIVE_DESC,  
     }
         
     const buttons = [
-        {buttonId: BUTTHANDLE + 'alexa', buttonText: {displayText: VER }, type: 1},
-        {buttonId: BUTTHANDLE + 'system', buttonText: {displayText: SYSDTXT }, type: 1}
+        {buttonId: '.menu', buttonText: {displayText: VER }, type: 1},
+        {buttonId: 'menu', buttonText: {displayText: SYSDTXT }, type: 1}
     ]
     const buttonMessage = {
         contentText: MSG,
-        footerText: 'ǫᴜᴇᴇɴ Alexa © SUPER VERSION',
+        footerText: '👸QUEEN ALEXA NEW VERSION',
         buttons: buttons,
         headerType: 4,
         imageMessage: media.message.imageMessage    
